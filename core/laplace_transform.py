@@ -2,9 +2,6 @@ import numpy as np
 import math
 from scipy.integrate import quad
 from scipy.special import gamma
-import matplotlib.pyplot as plt
-
-from mc_control_variate import AsianOptionMC_MC
 
 def C_hat(p, nu, alpha):
     """
